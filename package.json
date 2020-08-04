@@ -1,28 +1,15 @@
 {
   "name": "node-confusion-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "nodemon ."
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prashantpaddune/Node-confusion-backend.git"
-  },
-  "keywords": [],
-  "author": "Prashant Paddune",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/prashantpaddune/Node-confusion-backend/issues"
-  },
-  "homepage": "https://github.com/prashantpaddune/Node-confusion-backend#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
   }
 }

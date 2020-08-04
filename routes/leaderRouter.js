@@ -28,16 +28,16 @@ router.route('/:leaderId')
     })
     .post((req, res, next) => {
         res.statusCode = 403;
-        res.send('POST operation not supported on /leaderId/'+ req.params.leaderId);
+        res.send('POST operation not supported on /leader/'+ req.params.leaderId);
         next()
     })
     .put((req, res, next) => {
-        res.write('Updating the promo: ' + req.params.leaderId + '\n');
-        res.send('Will update the promo: ' + req.body.name + ' with details: ' + req.body.description);
+        res.write('Updating the leader: ' + req.params.leaderId + '\n');
+        res.send('Will update the leader: ' + req.body.name + ' with details: ' + req.body.description);
 
     })
     .delete((req, res, next) => {
-        res.send('Deleting promo: ' + req.params.leaderId);
+        res.send('Deleting leader: ' + req.params.leaderId);
     })
 
 module.exports = router;
