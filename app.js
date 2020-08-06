@@ -3,6 +3,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
@@ -12,8 +13,21 @@ const leaderRouter = require('./routes/leaderRouter');
 
 const app = express();
 
-app.use(bodyParser.json());
+mongoose
+    .connect('mongodb://localhost:27017/confusion', {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true
+    })
+    .then(() => {
+        console.log('DB CONNECTS SUCCESSFULLY');
+    })
+    .catch((error) => {
+        console.error('DB GOT CRASH');
+    });
 
+
+app.use(bodyParser.json());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
