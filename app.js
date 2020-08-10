@@ -26,7 +26,6 @@ mongoose
         console.error('DB GOT CRASH');
     });
 
-
 app.use(bodyParser.json());
 app.use(logger('dev'));
 app.use(express.json());

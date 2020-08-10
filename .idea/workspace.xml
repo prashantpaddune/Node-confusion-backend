@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c898843-12be-4a32-b353-43fd7ad64755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/dishes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/leaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/promotions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/dishRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dishRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/leaderRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/leaderRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/promoRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/promoRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fdlGUP94RFJ2aWK4Fiw7Hcfxap" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,10 +57,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.5.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,11 +78,12 @@
       <workItem from="1596638452952" duration="14000" />
       <workItem from="1596716550648" duration="4387000" />
       <workItem from="1596721034542" duration="146000" />
+      <workItem from="1597048402886" duration="1323000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -90,6 +98,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="339" y="112" key="SettingsEditor" timestamp="1597048583691">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="339" y="112" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1597048583691" />
     <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1596556556990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

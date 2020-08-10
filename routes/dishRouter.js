@@ -71,7 +71,7 @@ router.route('/:dishId')
             .catch((err) => next(err));
     });
 
-Router.route('/:dishId/comments')
+router.route('/:dishId/comments')
     .get((req,res,next) => {
         Dishes.findById(req.params.dishId)
             .then((dish) => {
@@ -136,7 +136,7 @@ Router.route('/:dishId/comments')
             .catch((err) => next(err));
     });
 
-Router.route('/:dishId/comments/:commentId')
+router.route('/:dishId/comments/:commentId')
     .get((req,res,next) => {
         Dishes.findById(req.params.dishId)
             .then((dish) => {
