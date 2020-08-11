@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c898843-12be-4a32-b353-43fd7ad64755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/leaders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/promotions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/dishRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dishRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/leaderRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/leaderRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/promoRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/promoRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +76,7 @@
       <workItem from="1596716550648" duration="4387000" />
       <workItem from="1596721034542" duration="146000" />
       <workItem from="1597048402886" duration="1323000" />
+      <workItem from="1597135383811" duration="2753000" />
     </task>
     <servers />
   </component>
@@ -98,10 +96,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="339" y="112" key="SettingsEditor" timestamp="1597048583691">
+    <state x="339" y="112" key="SettingsEditor" timestamp="1597135670747">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="339" y="112" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1597048583691" />
+    <state x="339" y="112" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1597135670747" />
     <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1596556556990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
